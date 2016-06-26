@@ -1,0 +1,23 @@
+# can be automatically generated with roxygen2
+
+# imported packages or variables/functions within packages
+# import(foo, bar)
+# importFrom(foo, f, g)
+# can be specified with @import roxygen2 tags
+
+# exported variables/functions
+# export(f, g)
+# can also be specified with @export roxygen2 tags
+
+# register methods with external classes
+S3method(print,   rvm) # print.rvm
+S3method(plot,    rvm) # plot.rvm
+S3method(predict, rvm) # predict.rvm
+S3method(rvm, default) # rvm.default
+S3method(rvm, formula) # rvm.formula
+
+# load the compiled shared object
+useDynLib(rvm)
+# or useDynLib(rvm, f)
+# can be specified with @useDynLib package roxygen2 tags
+# or @useDynLib package function

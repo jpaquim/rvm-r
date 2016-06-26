@@ -1,0 +1,12 @@
+# package preprocessor and c++ compiler flags if necessary
+# should be as portable as possible (i.e. no -O2, no -Wall)
+#
+# preprocessor flags
+# PKG_CPPFLAGS =
+#
+# for OpenMP support use
+# PKG_CXXFLAGS = $(SHLIB_OPENMP_CXXFLAGS)
+# PKG_LIBS = $(SHLIB_OPENMP_CXXFLAGS)
+#
+# if C++11 support is required, use
+# CXX_STD = CXX11

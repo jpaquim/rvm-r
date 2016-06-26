@@ -1,0 +1,18 @@
+# Note: comments are not valid and should be removed
+
+Package: rvm
+Version: 0.1-0
+Date: 2016-06-26
+Title: Relevance Vector Machine
+Description: Implementation of the Relevance Vector Machine (RVM) algorithm, featuring both regression and classification, with a probabilistically sound quantification of uncertainty.
+Imports: # external packages used in the package code
+Suggests: # external packages used in the package examples, tests or vignettes
+Authors@R: c(person(given = "João", family = "Paquim", role = c("aut", "cre"), email = "joaopaquim@gmail.com"),
+             person(given = "Miguel", family = "Monteiro", role = c("aut")))
+Author: João Paquim [aut, cre],
+        Miguel Monteiro [aut]
+Maintainer: João Paquim <joaopaquim@gmail.com>
+NeedsCompilation: yes
+License: # GPL-2 ? should be compatible with external components' licenses
+URL: https://github.com/rvm-r/rvm-r
+BugReports: https://github.com/rvm-r/rvm-r/issues
